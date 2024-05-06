@@ -7,3 +7,13 @@
 2024-05-06 08:47:30.711 [info] [127.0.0.1][baf58be2][ManagementConnection] New connection established.
 2024-05-06 08:47:31.653 [info] [127.0.0.1][83eefadc][ExtensionHostConnection] New connection established.
 2024-05-06 08:47:31.659 [info] [127.0.0.1][83eefadc][ExtensionHostConnection] <6322> Launched Extension Host Process.
+2024-05-06 09:22:05.271 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-05-06 09:26:24.396 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-05-06 09:26:31.224 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-05-06 09:38:39.670 [info] Getting Manifest... bradlc.vscode-tailwindcss
+2024-05-06 09:38:40.013 [info] Installing extension: bradlc.vscode-tailwindcss
+2024-05-06 09:38:43.992 [info] Extension signature verification result for bradlc.vscode-tailwindcss: Success. Duration: 1116ms.
+2024-05-06 09:38:44.083 [info] Extracted extension to file:///home/kid/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.10.5: bradlc.vscode-tailwindcss
+2024-05-06 09:38:44.089 [info] Renamed to /home/kid/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.10.5
+2024-05-06 09:38:44.090 [info] Extracting extension completed. bradlc.vscode-tailwindcss
+2024-05-06 09:38:44.097 [info] Extension installed successfully: bradlc.vscode-tailwindcss

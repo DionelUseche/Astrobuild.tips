@@ -1,0 +1,23 @@
+2024-05-06 12:14:47.680 [info] Extension host with pid 521 started
+2024-05-06 12:14:47.680 [error] Error: EEXIST: file already exists, open '/home/kid/.vscode-server/data/User/workspaceStorage/21ed8a7d7dcb766432e57cd31f0243a5/vscode.lock'
+2024-05-06 12:14:47.744 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-05-06 12:14:47.745 [info] ExtensionService#_doActivateExtension astro-build.astro-vscode, startup: false, activationEvent: 'onLanguage:astro'
+2024-05-06 12:14:47.995 [info] Lock '/home/kid/.vscode-server/data/User/workspaceStorage/21ed8a7d7dcb766432e57cd31f0243a5/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-05-06 12:14:48.004 [info] Lock '/home/kid/.vscode-server/data/User/workspaceStorage/21ed8a7d7dcb766432e57cd31f0243a5/vscode.lock': The pid 6322 appears to be gone.
+2024-05-06 12:14:48.004 [info] Lock '/home/kid/.vscode-server/data/User/workspaceStorage/21ed8a7d7dcb766432e57cd31f0243a5/vscode.lock': Deleting a stale lock.
+2024-05-06 12:14:48.040 [info] Lock '/home/kid/.vscode-server/data/User/workspaceStorage/21ed8a7d7dcb766432e57cd31f0243a5/vscode.lock': Lock acquired.
+2024-05-06 12:14:48.750 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-05-06 12:14:48.826 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-05-06 12:14:48.911 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-05-06 12:14:48.912 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-05-06 12:14:49.812 [info] Eager extensions activated
+2024-05-06 12:14:49.812 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-05-06 12:14:49.813 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-05-06 12:14:49.813 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2024-05-06 12:19:06.930 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-05-06 12:27:32.414 [error] [bradlc.vscode-tailwindcss] provider FAILED
+2024-05-06 12:27:32.414 [error] TypeError: Cannot read properties of null (reading 'filter')
+	at Object.provideDocumentColors (/home/kid/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.10.5/dist/extension.js:43:13656)
+	at async re.provideColors (/home/kid/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:155:114886)
+2024-05-06 12:36:35.000 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-05-06 13:03:13.997 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'

@@ -1,0 +1,29 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.7.0
+2 info using node@v22.1.0
+3 silly config:load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config:load:file:/home/kid/.cache/typescript/5.4/.npmrc
+5 silly config:load:file:/home/kid/.npmrc
+6 silly config:load:file:/usr/local/etc/npmrc
+7 verbose title npm install types-registry@latest
+8 verbose argv "install" "--ignore-scripts" "types-registry@latest"
+9 verbose logfile logs-max:10 dir:/home/kid/.npm/_logs/2024-05-06T16_55_04_610Z-
+10 verbose logfile /home/kid/.npm/_logs/2024-05-06T16_55_04_610Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 http fetch GET 200 https://registry.npmjs.org/types-registry 470ms (cache revalidated)
+14 silly idealTree buildDeps
+15 silly fetch manifest types-registry@0.1.684
+16 silly placeDep ROOT types-registry@0.1.684 REPLACE for:  want: 0.1.684
+17 silly reify moves {}
+18 silly audit bulk request {
+18 silly audit   '@types/html-escaper': [ '3.0.2' ],
+18 silly audit   '@types/node': [ '20.12.8' ],
+18 silly audit   '@types/yargs-parser': [ '21.0.3' ],
+18 silly audit   'undici-types': [ '5.26.5' ],
+18 silly audit   'types-registry': [ '0.1.684' ]
+18 silly audit }
+19 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 201ms
+20 silly audit report {}
+21 verbose exit 0
+22 info ok

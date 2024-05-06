@@ -57,3 +57,8 @@ git remote add origin https://github.com/DionelUseche/Astrobuild.tips.git
 git push -u origin main
 git remote add origin https://github.com/DionelUseche/Astrobuild.tips.git
 git push -u origin main
+cd astrobuild.tips
+git remote add origin
+git remote add origin [https://github.com/DionelUseche/Astrobuild.tips]
+git remote add origin [github.com/DionelUseche/Astrobuild.tips]
+npm run dev

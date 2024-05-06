@@ -1,0 +1,50 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.7.0
+2 info using node@v22.1.0
+3 silly config:load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config:load:file:/home/kid/.cache/typescript/5.4/.npmrc
+5 silly config:load:file:/home/kid/.npmrc
+6 silly config:load:file:/usr/local/etc/npmrc
+7 verbose title npm install @types/html-escaper@ts5.4 @types/node@ts5.4 @types/yargs-parser@ts5.4
+8 verbose argv "install" "--ignore-scripts" "@types/html-escaper@ts5.4" "@types/node@ts5.4" "@types/yargs-parser@ts5.4" "--save-dev" "--user-agent" "typesInstaller/5.4.5"
+9 verbose logfile logs-max:10 dir:/home/kid/.npm/_logs/2024-05-06T13_26_31_904Z-
+10 verbose logfile /home/kid/.npm/_logs/2024-05-06T13_26_31_904Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 http fetch GET 200 https://registry.npmjs.org/@types%2fhtml-escaper 532ms (cache miss)
+14 http fetch GET 200 https://registry.npmjs.org/@types%2fyargs-parser 537ms (cache miss)
+15 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 662ms (cache miss)
+16 silly idealTree buildDeps
+17 silly fetch manifest @types/html-escaper@3.0.2
+18 silly fetch manifest @types/yargs-parser@21.0.3
+19 silly fetch manifest @types/node@20.12.8
+20 silly placeDep ROOT @types/html-escaper@3.0.2 OK for:  want: 3.0.2
+21 silly placeDep ROOT @types/node@20.12.8 OK for:  want: 20.12.8
+22 silly placeDep ROOT @types/yargs-parser@21.0.3 OK for:  want: 21.0.3
+23 silly fetch manifest undici-types@~5.26.4
+24 http fetch GET 200 https://registry.npmjs.org/undici-types 95ms (cache miss)
+25 silly placeDep ROOT undici-types@5.26.5 OK for: @types/node@20.12.8 want: ~5.26.4
+26 silly reify moves {}
+27 silly audit bulk request {
+27 silly audit   'types-registry': [ '0.1.684' ],
+27 silly audit   '@types/html-escaper': [ '3.0.2' ],
+27 silly audit   '@types/node': [ '20.12.8' ],
+27 silly audit   '@types/yargs-parser': [ '21.0.3' ],
+27 silly audit   'undici-types': [ '5.26.5' ]
+27 silly audit }
+28 silly tarball no local data for undici-types@https://registry.npmjs.org/undici-types/-/undici-types-5.26.5.tgz. Extracting by manifest.
+29 silly tarball no local data for @types/yargs-parser@https://registry.npmjs.org/@types/yargs-parser/-/yargs-parser-21.0.3.tgz. Extracting by manifest.
+30 silly tarball no local data for @types/node@https://registry.npmjs.org/@types/node/-/node-20.12.8.tgz. Extracting by manifest.
+31 silly tarball no local data for @types/html-escaper@https://registry.npmjs.org/@types/html-escaper/-/html-escaper-3.0.2.tgz. Extracting by manifest.
+32 http fetch GET 200 https://registry.npmjs.org/undici-types/-/undici-types-5.26.5.tgz 112ms (cache miss)
+33 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 199ms
+34 silly audit report {}
+35 http fetch GET 200 https://registry.npmjs.org/@types/yargs-parser/-/yargs-parser-21.0.3.tgz 218ms (cache miss)
+36 http fetch GET 200 https://registry.npmjs.org/@types/node/-/node-20.12.8.tgz 347ms (cache miss)
+37 http fetch GET 200 https://registry.npmjs.org/@types/html-escaper/-/html-escaper-3.0.2.tgz 658ms (cache miss)
+38 silly ADD node_modules/undici-types
+39 silly ADD node_modules/@types/yargs-parser
+40 silly ADD node_modules/@types/node
+41 silly ADD node_modules/@types/html-escaper
+42 verbose exit 0
+43 info ok

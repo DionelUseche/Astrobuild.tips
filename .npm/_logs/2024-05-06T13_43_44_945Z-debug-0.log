@@ -1,0 +1,46 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.7.0
+2 info using node@v22.1.0
+3 silly config:load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config:load:file:/home/kid/astrobuild.tips/.npmrc
+5 silly config:load:file:/home/kid/.npmrc
+6 silly config:load:file:/usr/local/etc/npmrc
+7 verbose title npm install @tailwind/line-clamp
+8 verbose argv "install" "@tailwind/line-clamp"
+9 verbose logfile logs-max:10 dir:/home/kid/.npm/_logs/2024-05-06T13_43_44_945Z-
+10 verbose logfile /home/kid/.npm/_logs/2024-05-06T13_43_44_945Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest @tailwind/line-clamp@*
+15 http fetch GET 404 https://registry.npmjs.org/@tailwind%2fline-clamp 723ms (cache skip)
+16 silly placeDep ROOT @tailwind/line-clamp@ OK for: @example/basics@0.0.1 want: *
+17 verbose stack HttpErrorGeneral: 404 Not Found - GET https://registry.npmjs.org/@tailwind%2fline-clamp - Not found
+17 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/npm-registry-fetch/lib/check-response.js:95:15
+17 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+17 verbose stack     at async RegistryFetcher.packument (/usr/local/lib/node_modules/npm/node_modules/pacote/lib/registry.js:91:19)
+17 verbose stack     at async RegistryFetcher.manifest (/usr/local/lib/node_modules/npm/node_modules/pacote/lib/registry.js:129:23)
+17 verbose stack     at async #nodeFromEdge (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:1055:19)
+17 verbose stack     at async #buildDepStep (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:923:11)
+17 verbose stack     at async Arborist.buildIdealTree (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:203:7)
+17 verbose stack     at async Promise.all (index 1)
+17 verbose stack     at async Arborist.reify (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:131:5)
+17 verbose stack     at async Install.exec (/usr/local/lib/node_modules/npm/lib/commands/install.js:150:5)
+18 verbose statusCode 404
+19 verbose pkgid @tailwind/line-clamp@*
+20 verbose cwd /home/kid/astrobuild.tips
+21 verbose Linux 5.15.146.1-microsoft-standard-WSL2
+22 verbose node v22.1.0
+23 verbose npm  v10.7.0
+24 error code E404
+25 error 404 Not Found - GET https://registry.npmjs.org/@tailwind%2fline-clamp - Not found
+26 error 404
+27 error 404  '@tailwind/line-clamp@*' is not in this registry.
+28 error 404
+28 error 404 Note that you can also install from a
+29 error 404 tarball, folder, http url, or git url.
+30 verbose exit 1
+31 verbose code 1
+32 silly unfinished npm timer reify 1715003025143
+33 silly unfinished npm timer reify:loadTrees 1715003025146
+34 error A complete log of this run can be found in: /home/kid/.npm/_logs/2024-05-06T13_43_44_945Z-debug-0.log

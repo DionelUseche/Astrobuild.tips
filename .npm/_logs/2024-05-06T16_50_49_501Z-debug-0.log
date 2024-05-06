@@ -1,0 +1,68 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.7.0
+2 info using node@v22.1.0
+3 silly config:load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config:load:file:/home/kid/.npmrc
+5 silly config:load:file:/usr/local/etc/npmrc
+6 verbose title npm install prettier@2.8.4 prettier-plugin-astro@0.8.0
+7 verbose argv "install" "--save-dev" "prettier@2.8.4" "prettier-plugin-astro@0.8.0"
+8 verbose logfile logs-max:10 dir:/home/kid/.npm/_logs/2024-05-06T16_50_49_501Z-
+9 verbose logfile /home/kid/.npm/_logs/2024-05-06T16_50_49_501Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly logfile done cleaning log files
+12 silly idealTree buildDeps
+13 silly fetch manifest prettier@2.8.4
+14 http fetch GET 200 https://registry.npmjs.org/prettier 467ms (cache miss)
+15 silly fetch manifest prettier-plugin-astro@0.8.0
+16 http fetch GET 200 https://registry.npmjs.org/prettier-plugin-astro 454ms (cache miss)
+17 silly placeDep ROOT prettier@2.8.4 OK for:  want: 2.8.4
+18 silly placeDep ROOT prettier-plugin-astro@0.8.0 OK for:  want: 0.8.0
+19 silly fetch manifest @astrojs/compiler@^1.0.1
+20 silly fetch manifest sass-formatter@^0.7.5
+21 silly fetch manifest synckit@^0.8.4
+22 http fetch GET 200 https://registry.npmjs.org/sass-formatter 381ms (cache miss)
+23 http fetch GET 200 https://registry.npmjs.org/synckit 614ms (cache miss)
+24 http fetch GET 200 https://registry.npmjs.org/@astrojs%2fcompiler 721ms (cache revalidated)
+25 silly placeDep ROOT @astrojs/compiler@1.8.2 OK for: prettier-plugin-astro@0.8.0 want: ^1.0.1
+26 silly placeDep ROOT sass-formatter@0.7.9 OK for: prettier-plugin-astro@0.8.0 want: ^0.7.5
+27 silly placeDep ROOT synckit@0.8.8 OK for: prettier-plugin-astro@0.8.0 want: ^0.8.4
+28 silly fetch manifest suf-log@^2.5.3
+29 silly fetch manifest @pkgr/core@^0.1.0
+30 silly fetch manifest tslib@^2.6.2
+31 http fetch GET 200 https://registry.npmjs.org/tslib 112ms (cache revalidated)
+32 http fetch GET 200 https://registry.npmjs.org/suf-log 485ms (cache miss)
+33 http fetch GET 200 https://registry.npmjs.org/@pkgr%2fcore 683ms (cache miss)
+34 silly placeDep ROOT suf-log@2.5.3 OK for: sass-formatter@0.7.9 want: ^2.5.3
+35 silly fetch manifest s.color@0.0.15
+36 http fetch GET 200 https://registry.npmjs.org/s.color 382ms (cache miss)
+37 silly placeDep ROOT s.color@0.0.15 OK for: suf-log@2.5.3 want: 0.0.15
+38 silly placeDep ROOT @pkgr/core@0.1.1 OK for: synckit@0.8.8 want: ^0.1.0
+39 silly placeDep ROOT tslib@2.6.2 OK for: synckit@0.8.8 want: ^2.6.2
+40 silly reify moves {}
+41 silly tarball no local data for @pkgr/core@https://registry.npmjs.org/@pkgr/core/-/core-0.1.1.tgz. Extracting by manifest.
+42 silly tarball no local data for s.color@https://registry.npmjs.org/s.color/-/s.color-0.0.15.tgz. Extracting by manifest.
+43 silly tarball no local data for suf-log@https://registry.npmjs.org/suf-log/-/suf-log-2.5.3.tgz. Extracting by manifest.
+44 silly tarball no local data for synckit@https://registry.npmjs.org/synckit/-/synckit-0.8.8.tgz. Extracting by manifest.
+45 silly tarball no local data for sass-formatter@https://registry.npmjs.org/sass-formatter/-/sass-formatter-0.7.9.tgz. Extracting by manifest.
+46 silly tarball no local data for @astrojs/compiler@https://registry.npmjs.org/@astrojs/compiler/-/compiler-1.8.2.tgz. Extracting by manifest.
+47 silly tarball no local data for prettier-plugin-astro@https://registry.npmjs.org/prettier-plugin-astro/-/prettier-plugin-astro-0.8.0.tgz. Extracting by manifest.
+48 silly tarball no local data for prettier@https://registry.npmjs.org/prettier/-/prettier-2.8.4.tgz. Extracting by manifest.
+49 http fetch GET 200 https://registry.npmjs.org/suf-log/-/suf-log-2.5.3.tgz 118ms (cache miss)
+50 http fetch GET 200 https://registry.npmjs.org/s.color/-/s.color-0.0.15.tgz 121ms (cache miss)
+51 http fetch GET 200 https://registry.npmjs.org/@pkgr/core/-/core-0.1.1.tgz 134ms (cache miss)
+52 http fetch GET 200 https://registry.npmjs.org/synckit/-/synckit-0.8.8.tgz 317ms (cache miss)
+53 http fetch GET 200 https://registry.npmjs.org/sass-formatter/-/sass-formatter-0.7.9.tgz 318ms (cache miss)
+54 http fetch GET 200 https://registry.npmjs.org/prettier/-/prettier-2.8.4.tgz 897ms (cache miss)
+55 http fetch GET 200 https://registry.npmjs.org/prettier-plugin-astro/-/prettier-plugin-astro-0.8.0.tgz 1710ms (cache miss)
+56 http fetch GET 200 https://registry.npmjs.org/@astrojs/compiler/-/compiler-1.8.2.tgz 1955ms (cache miss)
+57 silly ADD node_modules/tslib
+58 silly ADD node_modules/@pkgr/core
+59 silly ADD node_modules/s.color
+60 silly ADD node_modules/suf-log
+61 silly ADD node_modules/synckit
+62 silly ADD node_modules/sass-formatter
+63 silly ADD node_modules/@astrojs/compiler
+64 silly ADD node_modules/prettier-plugin-astro
+65 silly ADD node_modules/prettier
+66 verbose exit 0
+67 info ok

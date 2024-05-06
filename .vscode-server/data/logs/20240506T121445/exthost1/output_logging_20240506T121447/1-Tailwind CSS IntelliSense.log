@@ -1,0 +1,53 @@
+[Global] Creating projects: [{"folder":"/home/kid/astrobuild.tips","configPath":"/home/kid/astrobuild.tips/tailwind.config.cjs","isUserConfigured":false,"documentSelector":[{"pattern":"/home/kid/astrobuild.tips/tailwind.config.cjs","priority":0},{"pattern":"/home/kid/astrobuild.tips/**","priority":3}]},{"folder":"/home/kid/astrobuild.tips","configPath":"/home/kid/astrobuild.tips/tailwind.config.mjs","isUserConfigured":false,"documentSelector":[{"pattern":"/home/kid/astrobuild.tips/tailwind.config.mjs","priority":0},{"pattern":"/home/kid/astrobuild.tips/**","priority":3}]}]
+[Global] Adding watch patterns: /home/kid/astrobuild.tips/tailwind.config.cjs, /home/kid/astrobuild.tips
+[Global] Adding watch patterns: /home/kid/astrobuild.tips/tailwind.config.mjs
+[tailwind.config.cjs] Initializing...
+[tailwind.config.cjs] Loaded Tailwind CSS config file: /home/kid/astrobuild.tips/tailwind.config.cjs
+[tailwind.config.cjs] Loaded postcss v8.4.38: /home/kid/astrobuild.tips/node_modules/postcss
+[tailwind.config.cjs] Loaded tailwindcss v3.4.3: /home/kid/astrobuild.tips/node_modules/tailwindcss
+[tailwind.config.cjs] Building...
+[Error - 12:14:53 PM] Tailwind CSS: content is not defined
+ReferenceError: content is not defined
+    at /home/kid/astrobuild.tips/tailwind.config.cjs:2:5
+    at evalModule (/home/kid/astrobuild.tips/node_modules/jiti/dist/jiti.js:1:256443)
+    at jiti (/home/kid/astrobuild.tips/node_modules/jiti/dist/jiti.js:1:254371)
+    at /home/kid/astrobuild.tips/node_modules/tailwindcss/lib/lib/load-config.js:52:30
+    at Object.loadConfig [as module] (/home/kid/astrobuild.tips/node_modules/tailwindcss/lib/lib/load-config.js:54:6)
+    at b (/home/kid/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.10.5/dist/tailwindServer.js:2950:9488)
+    at S (/home/kid/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.10.5/dist/tailwindServer.js:2950:4537)
+    at P (/home/kid/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.10.5/dist/tailwindServer.js:2950:9211)
+    at Object.I [as tryInit] (/home/kid/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.10.5/dist/tailwindServer.js:2950:4422)
+    at KR._init (/home/kid/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.10.5/dist/tailwindServer.js:2952:13103)
+[tailwind.config.mjs] Initializing...
+[tailwind.config.mjs] Loaded Tailwind CSS config file: /home/kid/astrobuild.tips/tailwind.config.mjs
+[tailwind.config.mjs] Loaded postcss v8.4.38: /home/kid/astrobuild.tips/node_modules/postcss
+[tailwind.config.mjs] Loaded tailwindcss v3.4.3: /home/kid/astrobuild.tips/node_modules/tailwindcss
+[tailwind.config.mjs] Building...
+[tailwind.config.cjs] File changed: /home/kid/astrobuild.tips/tailwind.config.cjs
+[tailwind.config.cjs] Initializing...
+[tailwind.config.cjs] Loaded Tailwind CSS config file: /home/kid/astrobuild.tips/tailwind.config.cjs
+[tailwind.config.cjs] Loaded postcss v8.4.38: /home/kid/astrobuild.tips/node_modules/postcss
+[tailwind.config.cjs] Loaded tailwindcss v3.4.3: /home/kid/astrobuild.tips/node_modules/tailwindcss
+[tailwind.config.cjs] Building...
+[Error - 12:33:16 PM] Tailwind CSS: content is not defined
+ReferenceError: content is not defined
+    at /home/kid/astrobuild.tips/tailwind.config.cjs:2:5
+    at evalModule (/home/kid/astrobuild.tips/node_modules/jiti/dist/jiti.js:1:256443)
+    at jiti (/home/kid/astrobuild.tips/node_modules/jiti/dist/jiti.js:1:254371)
+    at /home/kid/astrobuild.tips/node_modules/tailwindcss/lib/lib/load-config.js:52:30
+    at Object.loadConfig [as module] (/home/kid/astrobuild.tips/node_modules/tailwindcss/lib/lib/load-config.js:54:6)
+    at b (/home/kid/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.10.5/dist/tailwindServer.js:2950:9488)
+    at S (/home/kid/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.10.5/dist/tailwindServer.js:2950:4537)
+    at P (/home/kid/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.10.5/dist/tailwindServer.js:2950:9211)
+    at I (/home/kid/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.10.5/dist/tailwindServer.js:2950:4422)
+    at Object.y [as onFileEvents] (/home/kid/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.10.5/dist/tailwindServer.js:2950:4219)
+----------
+RESTARTING
+----------
+[Global] Creating projects: [{"folder":"/home/kid/astrobuild.tips","configPath":"/home/kid/astrobuild.tips/tailwind.config.mjs","isUserConfigured":false,"documentSelector":[{"pattern":"/home/kid/astrobuild.tips/tailwind.config.mjs","priority":0},{"pattern":"/home/kid/astrobuild.tips/**","priority":3}]}]
+[Global] Adding watch patterns: /home/kid/astrobuild.tips/tailwind.config.mjs, /home/kid/astrobuild.tips
+[tailwind.config.mjs] Initializing...
+[tailwind.config.mjs] Loaded Tailwind CSS config file: /home/kid/astrobuild.tips/tailwind.config.mjs
+[tailwind.config.mjs] Loaded postcss v8.4.38: /home/kid/astrobuild.tips/node_modules/postcss
+[tailwind.config.mjs] Loaded tailwindcss v3.4.3: /home/kid/astrobuild.tips/node_modules/tailwindcss
+[tailwind.config.mjs] Building...
