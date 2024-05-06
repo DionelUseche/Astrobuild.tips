@@ -1,0 +1,15 @@
+2024-05-05 20:18:01.646 [info] Extension host with pid 926 started
+2024-05-05 20:18:01.717 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-05-05 20:18:01.733 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-05-05 20:18:01.825 [info] Lock '/home/kid/.vscode-server/data/User/workspaceStorage/69d48a247d4813d14f1cdfe63bf7948c/vscode.lock': Lock acquired.
+2024-05-05 20:18:01.864 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-05-05 20:18:02.051 [info] Eager extensions activated
+2024-05-05 20:18:02.051 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-05-05 20:18:02.051 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-05-05 20:18:06.018 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-05-05 20:18:10.914 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-05-05 20:18:19.339 [info] ExtensionService#_doActivateExtension astro-build.astro-vscode, startup: false, activationEvent: 'workspaceContains:astro.config.*'
+2024-05-05 20:18:27.131 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-05-05 20:18:27.132 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-05-05 20:18:27.997 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-05-05 20:18:58.116 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'

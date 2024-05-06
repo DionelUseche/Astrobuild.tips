@@ -1,0 +1,14 @@
+0 verbose cli /usr/local/bin/node /usr/local/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@10.7.0
+2 info using node@v22.1.0
+3 silly config:load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config:load:file:/home/kid/astrobuild.tips/.npmrc
+5 silly config:load:file:/home/kid/.npmrc
+6 silly config:load:file:/usr/local/etc/npmrc
+7 verbose title npm exec astro add tailwind
+8 verbose argv "exec" "--" "astro" "add" "tailwind"
+9 verbose logfile logs-max:10 dir:/home/kid/.npm/_logs/2024-05-06T12_46_30_156Z-
+10 verbose logfile /home/kid/.npm/_logs/2024-05-06T12_46_30_156Z-debug-0.log
+11 silly logfile done cleaning log files
+12 verbose exit 0
+13 info ok
